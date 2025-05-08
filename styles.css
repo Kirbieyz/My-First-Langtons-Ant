@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    background: white;
+    cursor: grab;
+}
+
+canvas:active {
+    cursor: grabbing;
+}
